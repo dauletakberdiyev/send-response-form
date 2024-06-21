@@ -14,7 +14,7 @@ const create = async () => {
     });
 
     try {
-        await axios.post('/api/response-form', form)
+        await axios.post('/api/response-form/mysql', form)
         location.reload()
     }
     catch (error) {
